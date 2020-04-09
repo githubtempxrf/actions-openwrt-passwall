@@ -8,10 +8,10 @@
 
 name: Build OpenWrt
 
-#on:
-  #push:
-   # branches: 
-     # - master
+on:
+  push:
+    branches: 
+      - master
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
