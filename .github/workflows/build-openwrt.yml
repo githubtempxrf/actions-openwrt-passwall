@@ -8,18 +8,10 @@
 
 name: Build OpenWrt
 
-on:
-  release:
-    types: [published]
-  push:
-    branches:
-      - dev-lean-lede
-    paths:
-      - '.config'
-#  schedule:
-#    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+#on:
+  #push:
+   # branches: 
+     # - master
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
