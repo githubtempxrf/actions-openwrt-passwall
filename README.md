@@ -5,3 +5,4 @@ vssr不能和ssrp同时存在，会出现问题
 ##
 **ssrp+passwall**
 `vssr+passwall`
+添加8188eu 无线网卡驱动
