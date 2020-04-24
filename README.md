@@ -1,8 +1,8 @@
-# openwrt-passwall-vssr
-Actions使用Lienol-OpenWrt源码编译含passwall服务固件，并自定义添加vssr
+# openwrt-openclash-vssr
+Actions使用Lienol-OpenWrt源码编译添加vssr和openclash
 ## 
-vssr不能和ssrp同时存在，会出现问题
+vssr不能和ssrp同时存在，会出现问题（ssr已删除）
 ##
 **ssrp+passwall**
-`vssr+passwall`
+`vssr+passwall+openclash`
 添加8188eu 无线网卡驱动
